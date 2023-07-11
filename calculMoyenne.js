@@ -28,9 +28,10 @@ function calculMoyenne(){
 
 	let moyenne = 0;
 	moyenne = somme / tab.length;
+
 	document.getElementById("laSomme").innerText = "La somme des éléments du tableau est: " + somme;
 	document.getElementById("laTaille").innerText = "Le tableau a une taille de: " + tab.length;
-	document.getElementById("calcul").innerText = somme + " : " + tab.length + " = " + moyenne;
+	document.getElementById("calcul").innerText = "Moyenne: " + somme + " : " + tab.length + " = " + moyenne;
 
 	// document.write(moyenne);
 }
